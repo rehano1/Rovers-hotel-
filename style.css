@@ -48,5 +48,73 @@ body {
     
 }
 .red {
-    color: red;
+    color: #fc5c65;
+}
+
+/* Introduction Section */
+
+.intro-sec {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40vh;
+    padding-left: 30%;
+    width: 100vh;
+    gap: 20px;
+
+}
+.upper-items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.upper-items > :nth-child(2) {
+    color: #d63031;
+    font-weight: 700;
+}
+.upper-items > :nth-child(3) {
+    font-size: 0.8em;
+}
+.first-bold {
+    font-weight: 700;
+}
+.btn {
+    color: white;
+    background-color: #d63031;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    width: auto;
+    height: 40px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+.nav-flex-2 > div > a:hover {
+    color: #d63031;
+} 
+.change-width {
+    width: 20px;
+}
+/* a.btn:hover {
+    color: #29abe2;
+}
+a.hover:hover {
+    color: #fc5c65;
+} */
+i {
+    color: white;
+}
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    gap: 16px;
 }

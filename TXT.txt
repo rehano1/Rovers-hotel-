@@ -1,0 +1,8 @@
+Primary color    #d63031    
+secondary color #2d3436
+flex box, grid, normalize css, 
+add less margins, 
+Nav
+main adding all section tag into it
+write clear code
+https://epiktheme.netlify.app/html/rovers/demo/
