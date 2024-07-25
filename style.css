@@ -1,5 +1,6 @@
 body {
     font-family: 'roboto', Arial, Helvetica, sans-serif;
+
 }
 
 /* box-sizing reset
@@ -71,9 +72,8 @@ html {
     padding: 16px 24px;
     z-index: 1;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
     color: white;
-    position: i
 
 
 }
@@ -90,6 +90,7 @@ html {
     list-style: none;
     gap: 16px;
     flex: 1;
+    padding-top: 16px;
 }
 .section {
     padding: 16px; 
@@ -132,7 +133,8 @@ html {
 }
 
 .first-bold {
-    font-weight: 700;
+    font-weight: 900;
+    
 }
 
 .btn {
@@ -141,7 +143,6 @@ html {
     font-weight: 500;
     border: none;
     width: auto;
-    height: 40px;
     padding: 8px 16px;
 }
 
@@ -328,6 +329,12 @@ li.ser {
 .color-i {
     color: #fa573a;
 }
+.top-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
 
 .tr {
     display: flex;
@@ -359,6 +366,7 @@ li.ser {
 
 .tr-center {
     text-align: center;
+    
 }
 
 .m-bg {
@@ -377,6 +385,7 @@ li.ser {
     justify-content: space-between;
     align-items: flex-start;
     box-sizing: border-box;
+    flex: 1;
 }
 
 .m-f-2 {
@@ -384,6 +393,7 @@ li.ser {
     flex-direction: column;
     justify-content: space-between;
     gap: 8px;
+    flex: 1;
 }
 
 /* .m-grid {
@@ -397,6 +407,7 @@ li.ser {
 } */
 .m-grid {
     display: flex;
+    flex-wrap: wrap;
     
 }
 .footer-m {
@@ -415,12 +426,69 @@ li.ser {
     height: 600px;
     width: auto;
 }
+.chef-pic img {
+    display: block;
+}
+.person-image {
+    position: relative;
+}
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chef-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.6s;
+}
+.chef-content:hover {
+    opacity: 1;
+}
+.chef-content h3, p {
+    color: white;
 
-.t-m {
+}
+.chef-content > * {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.chef-content:hover > * {
+    transform: translateY(0px);
+}
+/* .t-m {
     display: flex;
     justify-content: space-between;
     gap: 5px;
+} */
+.tr-center h2 {
+    font-size: 42px;
 }
+ .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+ }
 .footer-ul {
     padding: 0;
+}
+
+.about-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
